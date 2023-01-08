@@ -4,7 +4,7 @@ import MultiItemCarousel from '../components/Carousel/MultiItemCarousel';
 import Header from '../components/Header/Header';
 import styles from './Layout.module.css';
 
-const AppsLayout = ({ children }) => {
+const AppsLayout = ({ children } : any) => {
   return (
     <>
       <Head>

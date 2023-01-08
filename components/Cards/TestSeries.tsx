@@ -58,7 +58,7 @@ const list = [
     price: '$12.20',
   },
 ];
-export default function TestSeries({ article }) {
+export default function TestSeries() {
   return (
     <div className="bg-slate-100  mt-3 p-2 sm:p-12">
       <div className="p-3 flex items-center justify-between">

@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useRef } from 'react';
 
-function SampleNextArrow(props) {
+function SampleNextArrow(props:any) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -15,7 +15,7 @@ function SampleNextArrow(props) {
   );
 }
 
-function SamplePrevArrow(props) {
+function SamplePrevArrow(props:any) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -64,7 +64,7 @@ const settings = {
 };
 
 const MultiItemCarousel = () => {
-  const sliderRef = useRef();
+  const sliderRef = useRef<any>();
   const previousFn = () => {
     sliderRef?.current?.slickPrev();
   }

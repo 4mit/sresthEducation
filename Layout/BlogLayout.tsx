@@ -7,7 +7,7 @@ import styles from './Layout.module.css';
 import { useAuthUser, withAuthUser } from 'next-firebase-auth';
 import { ComponentType } from 'react';
 
-const BlogLayout: ComponentType<any> = ({ children }) => {
+const BlogLayout: ComponentType<any> = ({ children } : any) => {
   
   // const AuthUser = useAuthUser();
   // console.info('>>>>', AuthUser);

@@ -54,7 +54,7 @@ const list = [
   },
 ];
 
-const CourseLayout = ({ children }) => {
+const CourseLayout = ({ children } : any) => {
   const router = useRouter();
   const { course } = router.query;
 

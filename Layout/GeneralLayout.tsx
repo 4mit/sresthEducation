@@ -4,7 +4,7 @@ import Header from '../components/Header/Header';
 import { Grid } from '@nextui-org/react';
 import { useRouter } from 'next/router';
 
-const GeneralLayout = ({ children }) => {  
+const GeneralLayout = ({ children } : any) => {  
   return (
     <>
       <Head>

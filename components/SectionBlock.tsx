@@ -1,4 +1,4 @@
-const SectionBlock = ({ children }) => {
+const SectionBlock = ({ children } :any) => {
   return (
     <div className="w-full bg-white">
       <div className="">{children}</div>

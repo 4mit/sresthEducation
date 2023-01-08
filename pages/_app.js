@@ -2,7 +2,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import { ProgressSpinner } from 'primereact/progressspinner';
-import initAuth from '../utils/initAuth';
 import { NextUIProvider } from '@nextui-org/react';
 
 import '../styles/globals.css';
@@ -10,7 +9,6 @@ import 'primereact/resources/themes/lara-light-indigo/theme.css'; //theme
 import 'primereact/resources/primereact.min.css'; //core css
 import 'primeicons/primeicons.css';
 
-initAuth();
 
 function MyApp({ Component, pageProps }) {  
   console.log('home loaded ');

@@ -17,7 +17,7 @@ const months = [
   'December',
 ];
 
-const HoverCard = ({ article }) => {
+const HoverCard = ({ article }:any) => {
   return (
     <Card css={{ w: '100%', h: '300px' }} variant="flat">
       <Card.Header

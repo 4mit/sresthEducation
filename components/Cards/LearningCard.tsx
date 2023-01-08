@@ -22,7 +22,7 @@ const list = [
     price: '$10.00',
   },
 ];
-export default function LearningCard({ article }) {
+export default function LearningCard({ article }:any) {
   return (
     <div className="bg-slate-100 mt-3 p-2 sm:p-12">
       <div className="p-3 flex items-center justify-between">
