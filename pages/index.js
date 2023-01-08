@@ -2,13 +2,13 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React from 'react';
 import Header from '../components/Header/Header';
-import Banner from '../components/banner/Banner';
+import Banner from '../components/Banner/Banner';
 import ContentScroller from '../components/ContentScroller/ContentScroller';
 import SectionBlock from '../components/SectionBlock';
 import RecentArticle from '../components/RecentArticle/RecentArticle';
 import Footer from '../components/Footer';
-import LearningCard from '../components/cards/LearningCard';
-import Testimonial from '../components/cards/Testimonial'
+import LearningCard from '../components/Cards/LearningCard';
+import Testimonial from '../components/Cards/Testimonial'
 import Faq from '../components/Faq/Faq';
 
 function Home() {
